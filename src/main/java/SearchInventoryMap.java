@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class SearchInventoryMap {
     // the key is the product id, the value is a Product object
     // note: keys must be objects, so use Integer instead of int
-    static HashMap<String, Product> inventory = new HashMap<String, Product>();
+    static HashMap<String, Product> inventory = new HashMap<>();
 
     public static void main(String[] args) {
         loadInventory();
